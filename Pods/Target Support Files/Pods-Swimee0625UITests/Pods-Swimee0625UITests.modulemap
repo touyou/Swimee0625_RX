@@ -1,0 +1,6 @@
+framework module Pods_Swimee0625UITests {
+  umbrella header "Pods-Swimee0625UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -12,6 +12,8 @@ final class SettingViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     private var user: User!
     
+    var delegate: HomeViewControllerDelegate!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -62,6 +64,7 @@ extension SettingViewController: UITableViewDelegate,UITableViewDataSource {
         case 0:
             let newCell = tableView.dequeueReusableCellWithIdentifier("nameSettingCell", forIndexPath: indexPath) as! nameSettingCell
             newCell.set(user)
+            newCell.delegate = self.delegate
             cell = newCell
         default:
             cell = UITableViewCell()

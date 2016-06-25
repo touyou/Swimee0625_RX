@@ -12,6 +12,8 @@ final class nameSettingCell: UITableViewCell, UITextFieldDelegate {
     
     @IBOutlet private weak var textField: UITextField!
     
+    var delegate: HomeViewControllerDelegate!
+    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
@@ -28,6 +30,9 @@ final class nameSettingCell: UITableViewCell, UITextFieldDelegate {
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         textField.resignFirstResponder()
+        
+        textField.text.flatMap(delegate.changeName)
+        
         return false
     }
 }

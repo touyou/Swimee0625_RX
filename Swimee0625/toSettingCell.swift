@@ -8,7 +8,15 @@
 
 import UIKit
 
+//protocol toSettingCellDelegate {
+//    func settingView()
+//}
+
 final class toSettingCell: UITableViewCell {
+    
+    @IBOutlet var settingButton: UIButton!
+    
+//    var delegate: toSettingCellDelegate!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,4 +29,7 @@ final class toSettingCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+//    @IBAction func pushSetting() {
+//        delegate.settingView()
+//    }
 }

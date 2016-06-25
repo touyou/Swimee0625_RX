@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A111F86F6550DD96667D58 /* Pods_Swimee0625UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F90D4F75162C02A04A86A8 /* Pods_Swimee0625UITests.framework */; };
+		6B8E4A11403677B7263C20AF /* Pods_Swimee0625Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD58AE92BF383D73EBFF2BB /* Pods_Swimee0625Tests.framework */; };
 		9AB0E0961D1D6C99007D8479 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0E0951D1D6C99007D8479 /* AppDelegate.swift */; };
 		9AB0E0981D1D6C99007D8479 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0E0971D1D6C99007D8479 /* HomeViewController.swift */; };
 		9AB0E09B1D1D6C99007D8479 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB0E0991D1D6C99007D8479 /* Main.storyboard */; };
@@ -22,6 +24,7 @@
 		9AB0E0D41D1D8018007D8479 /* toSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0E0D21D1D8018007D8479 /* toSettingCell.swift */; };
 		9AB0E0D51D1D8018007D8479 /* toSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB0E0D31D1D8018007D8479 /* toSettingCell.xib */; };
 		9AB0E0D71D1D8E64007D8479 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0E0D61D1D8E64007D8479 /* SettingViewController.swift */; };
+		F1A70265730823BFE4920563 /* Pods_Swimee0625.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AEC5D46476BE295A96233E5 /* Pods_Swimee0625.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AEC5D46476BE295A96233E5 /* Pods_Swimee0625.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swimee0625.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40407BDDF5FD3DD4FA1C38A3 /* Pods-Swimee0625.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swimee0625.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swimee0625/Pods-Swimee0625.debug.xcconfig"; sourceTree = "<group>"; };
+		5CD58AE92BF383D73EBFF2BB /* Pods_Swimee0625Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swimee0625Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F90D4F75162C02A04A86A8 /* Pods_Swimee0625UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swimee0625UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E319DBB142B79680B66DB2 /* Pods-Swimee0625UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swimee0625UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swimee0625UITests/Pods-Swimee0625UITests.release.xcconfig"; sourceTree = "<group>"; };
 		9AB0E0921D1D6C99007D8479 /* Swimee0625.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swimee0625.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB0E0951D1D6C99007D8479 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AB0E0971D1D6C99007D8479 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +71,10 @@
 		9AB0E0D21D1D8018007D8479 /* toSettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = toSettingCell.swift; sourceTree = "<group>"; };
 		9AB0E0D31D1D8018007D8479 /* toSettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = toSettingCell.xib; sourceTree = "<group>"; };
 		9AB0E0D61D1D8E64007D8479 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		AC11EDD2E9D307DDF511A527 /* Pods-Swimee0625.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swimee0625.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swimee0625/Pods-Swimee0625.release.xcconfig"; sourceTree = "<group>"; };
+		B63E4AA72FBF85D4A0FBE459 /* Pods-Swimee0625Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swimee0625Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swimee0625Tests/Pods-Swimee0625Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0A2644C56F3269A09066FAE /* Pods-Swimee0625Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swimee0625Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swimee0625Tests/Pods-Swimee0625Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F80593AB6DE6EEC1BEB0D7C0 /* Pods-Swimee0625UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swimee0625UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swimee0625UITests/Pods-Swimee0625UITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1A70265730823BFE4920563 /* Pods_Swimee0625.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B8E4A11403677B7263C20AF /* Pods_Swimee0625Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A111F86F6550DD96667D58 /* Pods_Swimee0625UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +112,8 @@
 				9AB0E0A91D1D6C99007D8479 /* Swimee0625Tests */,
 				9AB0E0B41D1D6C99007D8479 /* Swimee0625UITests */,
 				9AB0E0931D1D6C99007D8479 /* Products */,
+				F87E0998E673A6AC22BFAE45 /* Pods */,
+				FB39CEB339866A63268E942E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,6 +206,29 @@
 			name = Home;
 			sourceTree = "<group>";
 		};
+		F87E0998E673A6AC22BFAE45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40407BDDF5FD3DD4FA1C38A3 /* Pods-Swimee0625.debug.xcconfig */,
+				AC11EDD2E9D307DDF511A527 /* Pods-Swimee0625.release.xcconfig */,
+				B63E4AA72FBF85D4A0FBE459 /* Pods-Swimee0625Tests.debug.xcconfig */,
+				F0A2644C56F3269A09066FAE /* Pods-Swimee0625Tests.release.xcconfig */,
+				F80593AB6DE6EEC1BEB0D7C0 /* Pods-Swimee0625UITests.debug.xcconfig */,
+				81E319DBB142B79680B66DB2 /* Pods-Swimee0625UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB39CEB339866A63268E942E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AEC5D46476BE295A96233E5 /* Pods_Swimee0625.framework */,
+				5CD58AE92BF383D73EBFF2BB /* Pods_Swimee0625Tests.framework */,
+				70F90D4F75162C02A04A86A8 /* Pods_Swimee0625UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AB0E0BA1D1D6C99007D8479 /* Build configuration list for PBXNativeTarget "Swimee0625" */;
 			buildPhases = (
+				27AD7BF2EBEEB5274777A9EC /* 📦 Check Pods Manifest.lock */,
 				9AB0E08E1D1D6C99007D8479 /* Sources */,
 				9AB0E08F1D1D6C99007D8479 /* Frameworks */,
 				9AB0E0901D1D6C99007D8479 /* Resources */,
+				848E3DBC766FDF321FEF6F8A /* 📦 Embed Pods Frameworks */,
+				4B6930F6B7D5B4F54B3ACA54 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AB0E0BD1D1D6C99007D8479 /* Build configuration list for PBXNativeTarget "Swimee0625Tests" */;
 			buildPhases = (
+				24FAAE7151DCC4A0EEE96056 /* 📦 Check Pods Manifest.lock */,
 				9AB0E0A21D1D6C99007D8479 /* Sources */,
 				9AB0E0A31D1D6C99007D8479 /* Frameworks */,
 				9AB0E0A41D1D6C99007D8479 /* Resources */,
+				E928DFD9AE807C6E5EFD8C0E /* 📦 Embed Pods Frameworks */,
+				ED98064100B77440FC749510 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AB0E0C01D1D6C99007D8479 /* Build configuration list for PBXNativeTarget "Swimee0625UITests" */;
 			buildPhases = (
+				CE7ACD2EB1196D0D3F65C62A /* 📦 Check Pods Manifest.lock */,
 				9AB0E0AD1D1D6C99007D8479 /* Sources */,
 				9AB0E0AE1D1D6C99007D8479 /* Frameworks */,
 				9AB0E0AF1D1D6C99007D8479 /* Resources */,
+				D889AD8F8B7BAEE556CB604E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -317,6 +365,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24FAAE7151DCC4A0EEE96056 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		27AD7BF2EBEEB5274777A9EC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B6930F6B7D5B4F54B3ACA54 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swimee0625/Pods-Swimee0625-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		848E3DBC766FDF321FEF6F8A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swimee0625/Pods-Swimee0625-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE7ACD2EB1196D0D3F65C62A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D889AD8F8B7BAEE556CB604E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swimee0625UITests/Pods-Swimee0625UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E928DFD9AE807C6E5EFD8C0E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swimee0625Tests/Pods-Swimee0625Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED98064100B77440FC749510 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swimee0625Tests/Pods-Swimee0625Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9AB0E08E1D1D6C99007D8479 /* Sources */ = {
@@ -469,6 +640,7 @@
 		};
 		9AB0E0BB1D1D6C99007D8479 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40407BDDF5FD3DD4FA1C38A3 /* Pods-Swimee0625.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Swimee0625/Info.plist;
@@ -480,6 +652,7 @@
 		};
 		9AB0E0BC1D1D6C99007D8479 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC11EDD2E9D307DDF511A527 /* Pods-Swimee0625.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Swimee0625/Info.plist;
@@ -491,6 +664,7 @@
 		};
 		9AB0E0BE1D1D6C99007D8479 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B63E4AA72FBF85D4A0FBE459 /* Pods-Swimee0625Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = Swimee0625Tests/Info.plist;
@@ -503,6 +677,7 @@
 		};
 		9AB0E0BF1D1D6C99007D8479 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A2644C56F3269A09066FAE /* Pods-Swimee0625Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = Swimee0625Tests/Info.plist;
@@ -515,6 +690,7 @@
 		};
 		9AB0E0C11D1D6C99007D8479 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F80593AB6DE6EEC1BEB0D7C0 /* Pods-Swimee0625UITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Swimee0625UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -526,6 +702,7 @@
 		};
 		9AB0E0C21D1D6C99007D8479 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E319DBB142B79680B66DB2 /* Pods-Swimee0625UITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Swimee0625UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -554,6 +731,7 @@
 				9AB0E0BC1D1D6C99007D8479 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AB0E0BD1D1D6C99007D8479 /* Build configuration list for PBXNativeTarget "Swimee0625Tests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +740,7 @@
 				9AB0E0BF1D1D6C99007D8479 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AB0E0C01D1D6C99007D8479 /* Build configuration list for PBXNativeTarget "Swimee0625UITests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +749,7 @@
 				9AB0E0C21D1D6C99007D8479 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

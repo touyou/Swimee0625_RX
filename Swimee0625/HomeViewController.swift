@@ -7,11 +7,20 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
+
+protocol HomeViewControllerDelegate {
+    func changeName(name: String)
+}
 
 final class HomeViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     var user: User?
 
+    var delegate: HomeViewControllerDelegate!
+    var disposeBag = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -32,6 +41,8 @@ final class HomeViewController: UIViewController {
                               forCellReuseIdentifier: "nameCell")
         tableView.registerNib(UINib(nibName: String(toSettingCell.self), bundle: nil),
                               forCellReuseIdentifier: "toSettingCell")
+        
+        delegate = self
 
     }
 
@@ -39,8 +50,35 @@ final class HomeViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "toSetting" {
+            let viewController = segue.destinationViewController.childViewControllers.first as! SettingViewController
+            viewController.delegate = self
+        }
+    }
 }
+
+// MARK: HomeViewControllerDelegate
+
+extension HomeViewController: HomeViewControllerDelegate {
+    
+    func changeName(name: String) {
+        user?.name = name
+        self.tableView.reloadData()
+    }
+    
+}
+
+// MARK: toSettingCellDelegate
+
+//extension HomeViewController: toSettingCellDelegate {
+//    
+//    func settingView() {
+//        self.performSegueWithIdentifier("toSetting", sender: nil)
+//    }
+//
+//}
 
 // MARK: TableViewDelegate, TableViewDataSource
 
@@ -65,6 +103,10 @@ extension HomeViewController: UITableViewDelegate,UITableViewDataSource {
             cell = newCell
         case 1:
             let newCell = tableView.dequeueReusableCellWithIdentifier("toSettingCell", forIndexPath: indexPath) as! toSettingCell
+//            newCell.delegate = self
+            newCell.settingButton.rx_tap.subscribe { [weak self] _ in
+                self!.performSegueWithIdentifier("toSetting", sender: nil)
+            }.addDisposableTo(disposeBag)
             cell = newCell
         default:
             cell = UITableViewCell()
